@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@job-portal-demo.0cojxv1.mongodb.net/?retryWrites=true&w=majority&appName=job-portal-demo`;
+const uri = `mongodb+srv://ganeshvathumilli:Pn5v6mWgQVZX2DTG@job-portal-demo.0cojxv1.mongodb.net/?retryWrites=true&w=majority&appName=job-portal-demo`;
 
 const client = new MongoClient(uri, {
   serverApi: {
