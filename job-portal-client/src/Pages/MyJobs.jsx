@@ -15,7 +15,7 @@ const MyJobs = () => {
   useEffect(() => {
     setIsLoading(true);
     const email = 'ganeshvathumilli@gmail.com';
-    fetch(`http://localhost:5000/myJobs/${email}`)
+    fetch(`https://mern-app-job-portal-backend.vercel.app/myJobs/${email}`)
      .then((res) => res.json())
      .then((data) => {
         setJobs(data);
@@ -53,7 +53,7 @@ const MyJobs = () => {
 
   const handleDelete = (id) => {
     // console.log(id)
-    fetch(`http://localhost:5000/job/${id}`, {
+    fetch(`https://mern-app-job-portal-backend.vercel.app/job/${id}`, {
       method: "DELETE"
     }).then(res => res.json).then(data => {
       if(data.acknowledged === true){
