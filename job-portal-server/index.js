@@ -6,7 +6,11 @@ const bcrypt = require("bcryptjs");
 require("dotenv").config();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+  {
+    origin: 'https://mern-app-job-portal.vercel.app/'
+  }
+));
 
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const uri = `mongodb+srv://ganeshvathumilli:Pn5v6mWgQVZX2DTG@job-portal-demo.0cojxv1.mongodb.net/?retryWrites=true&w=majority&appName=job-portal-demo`;
