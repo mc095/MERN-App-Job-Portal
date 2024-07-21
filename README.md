@@ -80,9 +80,8 @@ A job portal application built using the MERN stack (MongoDB, Express.js, React,
 3. Create a `.env` file in the server directory and add the following:
 
     ```env
-    MONGO_URI=your_mongo_db_connection_string
-    JWT_SECRET=your_jwt_secret
-    FIREBASE_API_KEY=your_firebase_api_key
+    MONGO_DB_USERNAME=your_mongo_db_connection_string
+    MONGO_DB_API_KEY=your_jwt_secret
     ```
 
 ## Running the Application
