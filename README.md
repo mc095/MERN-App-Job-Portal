@@ -1,3 +1,5 @@
+![Cover Photo](images/img-bg.png)
+
 # Job Portal
 
 ## Overview
