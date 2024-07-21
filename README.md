@@ -4,7 +4,7 @@
 
 ## Overview
 
-A job portal application built using the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to browse and apply for jobs, and for employers to post job listings.
+A job portal application built using the MERN stack (MongoDB, Express.js, React, Node.js). This application allows recruiters to create and manage the jobs, and for employers to post job listings.
 
 ## Table of Contents
 
