@@ -81,7 +81,7 @@ A job portal application built using the MERN stack (MongoDB, Express.js, React,
 
     ```env
     MONGO_DB_USERNAME=your_mongo_db_connection_string
-    MONGO_DB_API_KEY=your_jwt_secret
+    MONGO_DB_API_KEY=your_API_secret
     ```
 
 ## Running the Application
