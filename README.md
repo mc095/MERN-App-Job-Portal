@@ -158,7 +158,3 @@ A job portal application built using the MERN stack (MongoDB, Express.js, React,
 - `mongoose`
 - `nodemon`
 - `react-toastify`
-
-## License
-
-This project is licensed under the ISC License.
