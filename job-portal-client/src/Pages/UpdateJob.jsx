@@ -22,7 +22,7 @@ const UpdateJob = () => {
       data.skills = selectedOption;
       // console.log(data);
   
-      fetch(`http://localhost:5000/update-job/${id}`, {
+      fetch(`https://mern-app-job-portal-backend.vercel.app/update-job/${id}`, {
         method:"PATCH",
         headers: {"content-type" : 'application/json'},
         body : JSON.stringify(data)

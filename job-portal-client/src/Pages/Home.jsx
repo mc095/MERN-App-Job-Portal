@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     setisLoading(true);
-    fetch("http://localhost:5000/all-jobs")
+    fetch("https://mern-app-job-portal-backend.vercel.app/all-jobs")
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);

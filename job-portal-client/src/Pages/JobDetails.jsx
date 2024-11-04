@@ -9,7 +9,7 @@ const JobDetails = () => {
   const [job, setJob] = useState([]);
   
   useEffect(() => {
-    fetch(`http://localhost:5000/all-jobs/${id}`).then(res => res.json()).then(data => setJob(data));
+    fetch(`https://mern-app-job-portal-backend.vercel.app/all-jobs/${id}`).then(res => res.json()).then(data => setJob(data));
   }, [id]);
 
   const handleApply = async () => {
@@ -39,7 +39,7 @@ const JobDetails = () => {
           gmailId: gmail
         };
 
-        const response = await fetch('http://localhost:5000/submit-resume', {
+        const response = await fetch('https://mern-app-job-portal-backend.vercel.app/submit-resume', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

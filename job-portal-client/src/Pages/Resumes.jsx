@@ -10,7 +10,7 @@ const Resumes = () => {
   useEffect(() => {
     const fetchResumes = async () => {
       try {
-        const response = await fetch("http://localhost:5000/all-resumes");
+        const response = await fetch("https://mern-app-job-portal-backend.vercel.app/all-resumes");
         const data = await response.json();
         setResumes(data);
         setIsLoading(false);
@@ -44,7 +44,7 @@ const Resumes = () => {
   };
 
   const handleReject = async (id) => {
-    const response = await fetch(`http://localhost:5000/resume/${id}`, {
+    const response = await fetch(`https://mern-app-job-portal-backend.vercel.app/resume/${id}`, {
       method: 'DELETE'
     });
     if (response.ok) {

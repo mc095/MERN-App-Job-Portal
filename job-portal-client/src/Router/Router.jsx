@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       {
         path: "/edit-job/:id",
         element: <UpdateJob />,
-        loader: ({ params }) => fetch(`http://localhost:5000/all-jobs/${params.id}`)
+        loader: ({ params }) => fetch(`https://mern-app-job-portal-backend.vercel.app/all-jobs/${params.id}`)
       },
       { path: "/job/:id", element: <JobDetails /> },
       { path: "/resumes", element: <Resumes /> }
