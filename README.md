@@ -151,8 +151,6 @@ A job portal application built using the MERN stack (MongoDB, Express.js, React,
 - `cors`
 - `dotenv`
 - `express`
-- `joi`
-- `joi-password-complexity`
 - `jsonwebtoken`
 - `mongodb`
 - `mongoose`
