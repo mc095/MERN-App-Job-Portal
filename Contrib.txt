@@ -1,3 +1,5 @@
 Team! Please write 2 to 3 lines on what you did for this project in offline
 
 Tarun - Implemented Firebase Authentication and Assisted in Express Backend
+
+Ravi Kumar - Assisted in React Frontend and UI Components and Documentation
