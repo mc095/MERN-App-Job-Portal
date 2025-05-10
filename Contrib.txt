@@ -3,3 +3,5 @@ Ramya - Assisted in Frontend and Backend integration and Resource Collection, Pr
 Tarun - Implemented Firebase Authentication and Assisted in Express Backend
 
 Ravi Kumar - Assisted in React Frontend and UI Components and Documentation
+
+Sahedha - Assisted in UI design and wireframing. Component collection and frontend integration.
